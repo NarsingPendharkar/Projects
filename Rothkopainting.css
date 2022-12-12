@@ -1,0 +1,45 @@
+.canvas{
+    overflow: hidden;
+    filter:blur(2px);
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+.frame{
+    width: 500px;
+    height:500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 10px solid black;
+}
+.one{
+    transform :rotate(-0.6deg);
+
+    border-radius: 9px;
+    box-shadow: 0 0 3px 3px #efb762;
+    margin: 20px auto;
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+}
+.two{
+    transform :rotate(0.4deg);
+    margin:0 auto 20px;
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401;
+    border-radius: 8px 10px;
+}
+.three{
+    transform :rotate(0.2deg);
+    border-radius: 30px 25px 60px 12px;
+    background-color:#b20403; 
+    width:91%;
+    height:28%;
+    margin:auto;
+    filter:blur(2px);
+    box-shadow: 0 0 5px 5px #b20403;
+}
+.one,.two{
+    filter:blur(1px)
+}
